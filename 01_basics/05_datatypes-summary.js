@@ -72,3 +72,8 @@ console.log(typeof myFunction);
 // String name = "John"; // name is a variable of type String
 // JavaScript's dynamic typing allows for more flexibility but can lead to potential runtime errors if not handled carefully. Static typing, on the other hand, provides better type safety at the cost of some initial verbosity and strictness.
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non- Primitive)
+
+let mybussname
