@@ -76,4 +76,24 @@ console.log(typeof myFunction);
 
 // Stack (Primitive), Heap (Non- Primitive)
 
-let mybussname
+let myGamename = "TrekofWars"
+
+let anothername = myGamename
+anothername = "startonceagain"
+
+console.log(myGamename);
+console.log(anothername);
+
+let userone = {
+    email: 'user@google.com',
+    upi: 'user@ybl'
+}
+
+let usertwo = userone
+
+usertwo.email = 'dhiraj@google.com'
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+
