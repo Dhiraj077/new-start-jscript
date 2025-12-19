@@ -6,8 +6,8 @@ let score = "45ac"
 // let score = undefined Result => NaN
 // let score = true/false Result => 1/0
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
 let valueINNumber = Number(score)
 console.log(typeof(valueINNumber));
