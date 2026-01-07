@@ -51,13 +51,13 @@ if (true) {
 
 // addone(5)
 
-addOne(5)
+addOne(5) // output will 6 because of hoisting
 
 function addOne(num) {
     return num + 1
 }
 
-const addTwo = function (num) {
+const addTwo = function (num) { // here in this function it will be not possible cause function works here differently 
     return num + 2
 }
 
