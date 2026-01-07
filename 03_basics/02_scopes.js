@@ -19,3 +19,47 @@ if (true) {
 console.log(a);
 // console.log(b);
 // console.log(c);
+
+function one() {
+    const username = "Dhiraj"
+
+    function two() {
+        const website = "Youtube"
+        console.log(username);
+    }
+    // console.log(website);
+
+    two()
+}
+one()
+
+if (true) {
+    const username = "Dhiraj"
+    if (username === "Dhiraj") {
+        const website = ' youtube'
+        console.log(username + website);
+    }
+    // console.log(website);
+}
+// console.log(username);
+
+//+++++++++++++++++++++++ Interesting ++++++++++++++++++++++++//
+
+// function addone(num) {
+//     return num + 1
+// }
+
+// addone(5)
+
+addOne(5)
+
+function addOne(num) {
+    return num + 1
+}
+
+const addTwo = function (num) {
+    return num + 2
+}
+
+addTwo(5)
+
