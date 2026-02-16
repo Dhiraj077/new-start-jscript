@@ -6,7 +6,7 @@
 // chai()
 
 //*********What is IIFE */
-// because certain time global scope pollution, to prevent it iffe is used (function)()
+// because certain time global scope pollution, to prevent we use iffe in the (function)()
 
 (function chai() {
     // named IIFE
