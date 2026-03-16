@@ -37,14 +37,15 @@ const myCoding = [
         languageName: 'Javascript',
         languageFileName: 'js'
     },
-     {
+    {
         languageName: 'Ruby',
         languageFileName: 'ru'
     },
-     {
+    {
         languageName: 'Python',
         languageFileName: 'py'
-    }, {
+    }, 
+    {
         languageName: 'Java',
         languageFileName: 'java'
     }
