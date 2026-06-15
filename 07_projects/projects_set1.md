@@ -84,7 +84,7 @@ setInterval(function(){
 
 ## project 4 Solution
 
-`````Javascript
+`````javascript
 
  // Math.random() * 100 + 1; // generates a random number between 1 and 100
 // Math.floor(Math.random() * 100 + 1); // generates a random integer between 1 and 100
@@ -92,7 +92,7 @@ setInterval(function(){
 // let randomNum = Math.floor(Math.random() * 100 + 1);
 // console.log(randomNum);
 
-const randomNum = parseInt(Math.random() * 100 + 1);
+let randomNum = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector("#subt");
 const userInput = document.querySelector("#guessField");
