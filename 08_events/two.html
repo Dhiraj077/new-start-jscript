@@ -23,6 +23,16 @@
     }
 
     // setTimeout(sayMyName, 2000)
-    setTimeout(changeText, 2000)
+    // setTimeout(changeText, 2000)
+
+    const changeMe = setTimeout(changeText, 2000)
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe)
+    })
+
+    // clearTimeout() can be used to stop the setTimeout function from executing
+
+
 </script>
 </html>

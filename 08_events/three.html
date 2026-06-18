@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Run javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+const sayDate = function(str){
+    console.log(str, Date.now());
+} // function to log the string and current timestamp
+
+
+let intervalId; // declare the variable to hold the interval ID
+
+
+document.querySelector('#start').addEventListener('click', function(){
+
+    intervalId = setInterval(sayDate, 1000, "Dhiraj"); // start the interval
+
+}); 
+
+
+document.querySelector('#stop').addEventListener('click', function(){
+
+    clearInterval(intervalId); // stop the interval
+
+}); // clearTimeout(intervalId); // stop the timeout
+
+</script>
+</html>
