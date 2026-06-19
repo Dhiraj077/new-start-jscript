@@ -26,5 +26,16 @@
         }
     }
     xhr.send()
+
+
+    // --------------------------------------
+
+    // Modern Equivalent Method For Api request
+
+    fetch('https://api.github.com/users/Dhiraj077')
+    .then(response => response.json())
+    .then(data => {
+     console.log(data.followers)
+})
 </script>
 </html>
